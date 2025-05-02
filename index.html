@@ -19,21 +19,23 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <style>
     body {
       background-color: #fdf6f9;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
     .logo {
-      max-width: 200px;
+      max-width: 17rem;
     }
     .product-card {
       border: 1px solid #e0e0e0;
       border-radius: 8px;
       padding: 16px;
-      background-color: #fff;
+      background-color: #a64ca651;
       box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     }
     .btn-whatsapp {
@@ -58,6 +60,13 @@
     .button {
       color:#a64ca6
     }
+    .icon-hover {
+      transition: transform 0.3s ease;
+    }
+    .icon-hover:hover {
+      transform: scale(1.2);
+    }
+
   </style>
 </head>
 <body>
@@ -67,14 +76,14 @@
     <img src="img/Logo Petunia.PNG" alt="Petúnia Lingerie" class="logo my-3" />
     <h1 class="h3 fw-bold mb-3">Sensualidade e Conforto para Todos os Momentos</h1>
     <img src="img/pexels-valeriya-597200.jpg" alt="Banner Petúnia" class="banner" />
-    <div class="d-flex justify-content-center my-auto p-2">
+    <div class="d-flex justify-content-center my-auto p-4">
       <a href="https://www.instagram.com/petunia_lingeriee/?igsh=MXVtaTA1d3ZhYTNkaw%3D%3D" target="_blank" rel="noopener noreferrer">
-        <div class="icon-hover">
+        <div class="icon-hover mx-4">
           <i class="bi bi-instagram fs-1 mx-4 text-white icon-hover"></i>
         </div>
       </a>
       <a href="https://wa.me/5579999418492?text=Ol%C3%A1%2C%20estava%20olhando%20o%20site%20da%20Pet%C3%BAlia%20Lingirie%20e%20queria%20maiores%20informa%C3%A7%C3%B5es%20sobre%20algumas%20pe%C3%A7as." target="_blank" style="text-decoration: none;">
-        <div class="icon-hover">
+        <div class="icon-hover mx-4">
           <i class="bi bi-whatsapp fs-1 mx-4 text-white icon-hover"></i>
         </div>
       </a>
@@ -133,7 +142,7 @@
         <div class="card border-0 shadow p-4 h-100">
           <img src="img/rosto1.jpg" alt="Cliente 1" class="rounded-circle mx-auto mb-3" style="width:10rem; height:10rem; object-fit:cover;">
           <h5 class="fw-bold">Juliana S.</h5>
-          <p class="text-muted fw-lighter fst-italic">"Fui super bem atendida na Petúnia Lingerie! A Mary é um amor de pessoa, super atenciosa e cheia de dicas que realmente fazem a diferença na hora de escolher a peça ideal. Dá pra ver que ela entende do assunto e se preocupa com o nosso conforto e bem-estar. Com certeza comprarei mais vezes!"</p>
+          <p class="text-muted fw-light fst-italic">"Fui super bem atendida na Petúnia Lingerie! A Mary é um amor de pessoa, super atenciosa e cheia de dicas que realmente fazem a diferença na hora de escolher a peça ideal. Dá pra ver que ela entende do assunto e se preocupa com o nosso conforto e bem-estar. Com certeza comprarei mais vezes!"</p>
         </div>
       </div>
 
@@ -142,7 +151,7 @@
         <div class="card border-0 shadow p-4 h-100">
           <img src="img/rosto2.jpg" alt="Cliente 2" class="rounded-circle mx-auto mb-3" style="width:10rem; height:10rem; object-fit:cover;">
           <h5 class="fw-bold">Renata C.</h5>
-          <p class="text-muted fw-lighter fst-italic">"As peças da Petúnia Lingerie são simplesmente lindas! A qualidade dos tecidos e o acabamento impecável me surpreenderam. Além disso, os preços são justos, o que torna tudo ainda melhor. É difícil sair com apenas uma peça!"</p>
+          <p class="text-muted fw-light fst-italic">"As peças da Petúnia Lingerie são simplesmente lindas! A qualidade dos tecidos e o acabamento impecável me surpreenderam. Além disso, os preços são justos, o que torna tudo ainda melhor. É difícil sair com apenas uma peça!"</p>
         </div>
       </div>
 
@@ -162,11 +171,11 @@
         <input type="text" id="nome" class="form-control" placeholder="Seu nome" required />
       </div>
       <div class="col-md-4 mb-2">
-        <input type="tel" id="telefone" class="form-control" placeholder="WhatsApp (com DDD)" required />
+        <input type="tel" id="telefone" class="form-control" placeholder="WhatsApp (xx xxxxx xxxxx)" required />
       </div>
       <div class="col-md-4 mb-2 d-grid">
         <button type="submit" class="btn btn-success btn-sm rounded-pill py-1 px-3">
-            <i class="bi bi-whatsapp me-2"></i> Quero Receber Novidades
+            <i class="bi bi-whatsapp me-2 fs-5"></i> Quero Receber Novidades
         </button>
       </div>
     </form>
@@ -174,24 +183,26 @@
 </section>
 
 <!-- Redes Sociais-->
-<section>
-  <div class="d-flex justify-content-center my-4">
+<section class="header-color ">
+  <div class="d-flex justify-content-center py-4">
     <a href="https://www.instagram.com/petunia_lingeriee/?igsh=MXVtaTA1d3ZhYTNkaw%3D%3D" target="_blank" rel="noopener noreferrer">
       <div class="icon-hover">
-        <i class="bi bi-instagram fs-1 mx-4 button icon-hover"></i>
+        <i class="bi bi-instagram fs-1 mx-4 text-white icon-hover"></i>
       </div>
     </a>
     <a href="https://wa.me/5579999418492?text=Ol%C3%A1%2C%20estava%20olhando%20o%20site%20da%20Pet%C3%BAlia%20Lingirie%20e%20queria%20maiores%20informa%C3%A7%C3%B5es%20sobre%20algumas%20pe%C3%A7as." target="_blank" style="text-decoration: none;">
       <div class="icon-hover">
-        <i class="bi bi-whatsapp fs-1 mx-4 button icon-hover"></i>
+        <i class="bi bi-whatsapp fs-1 mx-4 text-white icon-hover"></i>
       </div>
     </a>
   </div>
 </section>
 
 
-  <footer class="text-center py-4 text-muted">
+  <footer class="text-center py-4 text-muted header-color">
+    <span class="text-white fst-italic">
     © 2025 Petúnia Lingerie — Todos os direitos reservados
+    </span>
   </footer>
 
 
