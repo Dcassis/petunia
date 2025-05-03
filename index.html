@@ -22,6 +22,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 
   <style>
     body {
@@ -66,7 +68,9 @@
     .icon-hover:hover {
       transform: scale(1.2);
     }
-
+    .icon-size {
+      font-size: 4rem;
+    }
   </style>
 </head>
 <body>
@@ -79,26 +83,33 @@
     <div class="d-flex justify-content-center my-auto p-4">
       <a href="https://www.instagram.com/petunia_lingeriee/?igsh=MXVtaTA1d3ZhYTNkaw%3D%3D" target="_blank" rel="noopener noreferrer">
         <div class="icon-hover mx-4">
-          <i class="bi bi-instagram fs-1 mx-4 text-white icon-hover"></i>
+          <i class="bi bi-instagram icon-size mx-4 text-white icon-hover"></i>
         </div>
       </a>
       <a href="https://wa.me/5579999418492?text=Ol%C3%A1%2C%20estava%20olhando%20o%20site%20da%20Pet%C3%BAlia%20Lingirie%20e%20queria%20maiores%20informa%C3%A7%C3%B5es%20sobre%20algumas%20pe%C3%A7as." target="_blank" style="text-decoration: none;">
         <div class="icon-hover mx-4">
-          <i class="bi bi-whatsapp fs-1 mx-4 text-white icon-hover"></i>
+          <i class="bi bi-whatsapp icon-size mx-4 text-white icon-hover"></i>
         </div>
       </a>
   </div>
   </header>
 
   <!-- Produtos -->
-  <section class="container my-5">
-    <div class="row text-center g-4">
+  <section class="container my-2">
+    <div class="animate__flipInX">
+      <h1 class="animate__animated animate__bounce text-center p-2 button">Ofertas da semana!!</h1>
+    </div>
+    <div class="row text-center">
       <!-- Produto 1 -->
       <div class="col-md-4">
         <div class="d-flex justify-content-around flex-column product-card h-100">
           <img src="img/lingerie_conjunto.jpg" class="img-fluid rounded mb-3 h-50" alt="Produto 1"/>
           <h5>Conjunto Floral Elegante</h5>
           <p>Renda delicada e toque macio. Disponível em várias cores.</p>
+          <div>
+            <h2>R$ 249,00</h2>
+            <h6 class="fw-light">10 x R$ 24,90</h6>
+          </div>
           <a href="https://wa.me/5579999438492?text=Olá%2C%20tenho%20interesse%20no%20Conjunto%20Floral%20Elegante!" class="btn btn-whatsapp w-100">
             Comprar pelo WhatsApp
           </a>
@@ -111,6 +122,10 @@
           <img src="img/babydoll.jpg" class="img-fluid rounded mb-3 h-50" alt="Produto 2"/>
           <h5>Body Luxo Preto</h5>
           <p>Perfeito para ocasiões especiais. Modelagem incrível.</p>
+          <div>
+            <h2>R$ 199,00</h2>
+            <h6 class="fw-light">10 x R$ 19,90</h6>
+          </div>
           <a href="https://wa.me/5579999438492?text=Olá%2C%20tenho%20interesse%20no%20Body%20Luxo%20Preto!" class="btn btn-whatsapp w-100">
             Comprar pelo WhatsApp
           </a>
@@ -123,6 +138,10 @@
           <img src="img/kit_calcinha.jpg" class="img-fluid rounded mb-3 h-50" alt="Produto 3" />
           <h5>Conjunto Romântico Rosé</h5>
           <p>Combinação perfeita entre elegância e conforto.</p>
+          <div>
+            <h2>R$ 210,00</h2>
+            <h6 class="fw-light">10 x R$ 21,00</h6>
+          </div>
           <a href="https://wa.me/5579999438492?text=Olá%2C%20tenho%20interesse%20no%20Conjunto%20Romântico%20Rosé!" class="btn btn-whatsapp w-100">
             Comprar pelo WhatsApp
           </a>
@@ -184,15 +203,15 @@
 
 <!-- Redes Sociais-->
 <section class="header-color ">
-  <div class="d-flex justify-content-center py-4">
+  <div class="d-flex justify-content-center py-4 gap-5">
     <a href="https://www.instagram.com/petunia_lingeriee/?igsh=MXVtaTA1d3ZhYTNkaw%3D%3D" target="_blank" rel="noopener noreferrer">
       <div class="icon-hover">
-        <i class="bi bi-instagram fs-1 mx-4 text-white icon-hover"></i>
+        <i class="bi bi-instagram icon-size mx-4 text-white icon-hover"></i>
       </div>
     </a>
     <a href="https://wa.me/5579999418492?text=Ol%C3%A1%2C%20estava%20olhando%20o%20site%20da%20Pet%C3%BAlia%20Lingirie%20e%20queria%20maiores%20informa%C3%A7%C3%B5es%20sobre%20algumas%20pe%C3%A7as." target="_blank" style="text-decoration: none;">
       <div class="icon-hover">
-        <i class="bi bi-whatsapp fs-1 mx-4 text-white icon-hover"></i>
+        <i class="bi bi-whatsapp icon-size mx-auto text-white icon-hover"></i>
       </div>
     </a>
   </div>
