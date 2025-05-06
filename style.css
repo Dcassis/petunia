@@ -1,0 +1,54 @@
+ body {
+      background-color: #fdf6f9;
+      font-family: 'Roboto', sans-serif;
+    }
+    .logo {
+      max-width: 17rem;
+    }
+    .product-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 16px;
+      background-color: #a64ca651;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: white;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1ebe57;
+    }
+    .header-color {
+      background: linear-gradient(to right, #a64ca6, #00d4ff);
+      color: white;
+    }
+    .banner {
+      max-height: 400px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .footer-form input {
+      margin-bottom: 10px;
+    }
+    .button {
+      color:#a64ca6
+    }
+    .bg-hover{
+      background-color: #c179c1;
+    }
+    .icon-hover {
+      transition: transform 0.3s ease;
+    }
+    .icon-hover:hover {
+      transform: scale(1.2);
+    }
+    .icon-size {
+      font-size: 2rem;
+    }
+    .small-font {
+      font-size: 1rem;
+    }
+    .smaller-font {
+      font-size: .75rem;
+    }

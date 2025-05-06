@@ -23,62 +23,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
 
-
-  <style>
-    body {
-      background-color: #fdf6f9;
-      font-family: 'Roboto', sans-serif;
-    }
-    .logo {
-      max-width: 17rem;
-    }
-    .product-card {
-      border: 1px solid #e0e0e0;
-      border-radius: 8px;
-      padding: 16px;
-      background-color: #a64ca651;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    }
-    .btn-whatsapp {
-      background-color: #25d366;
-      color: white;
-    }
-    .btn-whatsapp:hover {
-      background-color: #1ebe57;
-    }
-    .header-color {
-      background: linear-gradient(to right, #a64ca6, #00d4ff);
-      color: white;
-    }
-    .banner {
-      max-height: 400px;
-      object-fit: cover;
-      width: 100%;
-    }
-    .footer-form input {
-      margin-bottom: 10px;
-    }
-    .button {
-      color:#a64ca6
-    }
-    .icon-hover {
-      transition: transform 0.3s ease;
-    }
-    .icon-hover:hover {
-      transform: scale(1.2);
-    }
-    .icon-size {
-      font-size: 4rem;
-    }
-  </style>
+  
 </head>
 <body>
 
   <!-- Header com Banner -->
   <header class="text-center header-color pb-0">
-    <img src="img/Logo Petunia.PNG" alt="Petúnia Lingerie" class="logo my-3" />
-    <h1 class="h3 fw-bold mb-3">Sensualidade e Conforto para Todos os Momentos</h1>
+    <img src="img/Logo Petunia.PNG" alt="Petúnia Lingerie" class="logo my-3 w-25" />
+    <h1 class="h4 fst-italic fw-bold mb-3">Sensualidade e Conforto para Todos os Momentos</h1>
     <img src="img/pexels-valeriya-597200.jpg" alt="Banner Petúnia" class="banner" />
     <div class="d-flex justify-content-center my-auto p-4">
       <a href="https://www.instagram.com/petunia_lingeriee/?igsh=MXVtaTA1d3ZhYTNkaw%3D%3D" target="_blank" rel="noopener noreferrer">
@@ -86,7 +40,7 @@
           <i class="bi bi-instagram icon-size mx-4 text-white icon-hover"></i>
         </div>
       </a>
-      <a href="https://wa.me/5579999418492?text=Ol%C3%A1%2C%20estava%20olhando%20o%20site%20da%20Pet%C3%BAlia%20Lingirie%20e%20queria%20maiores%20informa%C3%A7%C3%B5es%20sobre%20algumas%20pe%C3%A7as." target="_blank" style="text-decoration: none;">
+      <a href="https://wa.me/5579999438492?text=Ol%C3%A1%2C%20estava%20olhando%20o%20site%20da%20Pet%C3%BAlia%20Lingirie%20e%20queria%20maiores%20informa%C3%A7%C3%B5es%20sobre%20algumas%20pe%C3%A7as." target="_blank" style="text-decoration: none;">
         <div class="icon-hover mx-4">
           <i class="bi bi-whatsapp icon-size mx-4 text-white icon-hover"></i>
         </div>
@@ -101,49 +55,49 @@
     </div>
     <div class="row text-center">
       <!-- Produto 1 -->
-      <div class="col-md-4">
+      <div class="col-sm">
         <div class="d-flex justify-content-around flex-column product-card h-100">
-          <img src="img/lingerie_conjunto.jpg" class="img-fluid rounded mb-3 h-50" alt="Produto 1"/>
+          <img src="img/lingerie_conjunto.jpg" class="img-fluid rounded mb-3" alt="Produto 1" style="width: 15rem; height: 15rem"/>
           <h5>Conjunto Floral Elegante</h5>
-          <p>Renda delicada e toque macio. Disponível em várias cores.</p>
+          <p class="smaller-font">Renda delicada e toque macio. Disponível em várias cores.</p>
           <div>
-            <h2>R$ 249,00</h2>
-            <h6 class="fw-light">10 x R$ 24,90</h6>
+            <h2 class="smaller-font">R$ 249,00</h2>
+            <h6 class="fw-bold text-danger">10 x R$ 24,90</h6>
           </div>
           <a href="https://wa.me/5579999438492?text=Olá%2C%20tenho%20interesse%20no%20Conjunto%20Floral%20Elegante!" class="btn btn-whatsapp w-100">
-            Comprar pelo WhatsApp
+            Compre Agora!
           </a>
         </div>
       </div>
 
       <!-- Produto 2 -->
-      <div class="col-md-4">
+      <div class="col-sm">
         <div class="d-flex justify-content-around flex-column product-card h-100">
-          <img src="img/babydoll.jpg" class="img-fluid rounded mb-3 h-50" alt="Produto 2"/>
+          <img src="img/babydoll.jpg" class="img-fluid rounded mb-3" alt="Produto 2" style="width: 15rem; height: 15rem"/>
           <h5>Body Luxo Preto</h5>
-          <p>Perfeito para ocasiões especiais. Modelagem incrível.</p>
+          <p class="smaller-font">Perfeito para ocasiões especiais. Modelagem incrível.</p>
           <div>
-            <h2>R$ 199,00</h2>
-            <h6 class="fw-light">10 x R$ 19,90</h6>
+            <h2 class="smaller-font">R$ 199,00</h2>
+            <h6 class="fw-bold text-danger">10 x R$ 19,90</h6>
           </div>
           <a href="https://wa.me/5579999438492?text=Olá%2C%20tenho%20interesse%20no%20Body%20Luxo%20Preto!" class="btn btn-whatsapp w-100">
-            Comprar pelo WhatsApp
+            Compre Agora! 
           </a>
         </div>
       </div>
 
       <!-- Produto 3 -->
-      <div class="col-md-4">
+      <div class="col-sm">
         <div class="d-flex justify-content-around flex-column product-card h-100">
-          <img src="img/kit_calcinha.jpg" class="img-fluid rounded mb-3 h-50" alt="Produto 3" />
+          <img src="img/kit_calcinha.jpg" class="img-fluid rounded mb-3" alt="Produto 3" style="width: 15rem; height: 15rem"/>
           <h5>Conjunto Romântico Rosé</h5>
-          <p>Combinação perfeita entre elegância e conforto.</p>
+          <p class="smaller-font">Combinação perfeita entre elegância e conforto.</p>
           <div>
-            <h2>R$ 210,00</h2>
-            <h6 class="fw-light">10 x R$ 21,00</h6>
+            <h2 class="smaller-font">R$ 210,00</h2>
+            <h6 class="fw-bold text-danger">10 x R$ 21,00</h6>
           </div>
           <a href="https://wa.me/5579999438492?text=Olá%2C%20tenho%20interesse%20no%20Conjunto%20Romântico%20Rosé!" class="btn btn-whatsapp w-100">
-            Comprar pelo WhatsApp
+            Compre agora!
           </a>
         </div>
       </div>
@@ -178,10 +132,7 @@
   </div>
 </section>
 
-
-      
-
-  <!-- Newsletter / Captura de Contato para WhatsApp -->
+<!-- Newsletter / Captura de Contato para WhatsApp -->
 <section class="bg-light py-5">
   <div class="container">
     <h4 class="text-center mb-4">Receba novidades da Petúnia Lingerie</h4>
@@ -194,7 +145,7 @@
       </div>
       <div class="col-md-4 mb-2 d-grid">
         <button type="submit" class="btn btn-success btn-sm rounded-pill py-1 px-3">
-            <i class="bi bi-whatsapp me-2 fs-5"></i> Quero Receber Novidades
+            <i class="bi bi-whatsapp me-2 fs-5"></i> Receba Novidades
         </button>
       </div>
     </form>
@@ -209,7 +160,7 @@
         <i class="bi bi-instagram icon-size mx-4 text-white icon-hover"></i>
       </div>
     </a>
-    <a href="https://wa.me/5579999418492?text=Ol%C3%A1%2C%20estava%20olhando%20o%20site%20da%20Pet%C3%BAlia%20Lingirie%20e%20queria%20maiores%20informa%C3%A7%C3%B5es%20sobre%20algumas%20pe%C3%A7as." target="_blank" style="text-decoration: none;">
+    <a href="https://wa.me/5579999438492?text=Ol%C3%A1%2C%20estava%20olhando%20o%20site%20da%20Pet%C3%BAlia%20Lingirie%20e%20queria%20maiores%20informa%C3%A7%C3%B5es%20sobre%20algumas%20pe%C3%A7as." target="_blank" style="text-decoration: none;">
       <div class="icon-hover">
         <i class="bi bi-whatsapp icon-size mx-auto text-white icon-hover"></i>
       </div>
@@ -218,30 +169,11 @@
 </section>
 
 
-  <footer class="text-center py-4 text-muted header-color">
+  <footer class="text-center py-2 text-muted header-color">
     <span class="text-white fst-italic">
     © 2025 Petúnia Lingerie — Todos os direitos reservados
     </span>
   </footer>
-
-
-<script>
-  function enviarParaWhatsApp(event) {
-    event.preventDefault();
-
-    const nome = document.getElementById("nome").value.trim();
-    const telefone = document.getElementById("telefone").value.trim();
-
-    const numeroWhatsApp = "5579999438492";
-    const mensagem = `Olá! Quero receber novidades da Petúnia Lingerie.%0ANome: ${encodeURIComponent(nome)}%0AMeu WhatsApp: ${encodeURIComponent(telefone)}`;
-
-    const url = `https://wa.me/${numeroWhatsApp}?text=${mensagem}`;
-    window.open(url, '_blank');
-
-    // Limpa os campos do formulário após o envio
-    document.getElementById("formNewsletter").reset();
-  }
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
